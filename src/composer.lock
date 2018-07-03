@@ -1,10 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "630d5f1d19e73b0163f900453171fba5",
+    "content-hash": "138fa230650879125463b455fdf6de6e",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -74,7 +74,7 @@
             "version": "v1.3.2",
             "source": {
                 "type": "git",
-                "url": "https://github.com/bestiejs/punycode.js.git",
+                "url": "git@github.com:bestiejs/punycode.js.git",
                 "reference": "38c8d3131a82567bfef18da09f7f4db68c84f8a3"
             },
             "dist": {
@@ -379,6 +379,43 @@
                 "mailer"
             ],
             "time": "2017-09-30T22:39:41+00:00"
+        },
+        {
+            "name": "umbalaconmeogia/yii2-batsg",
+            "version": "v0.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/umbalaconmeogia/yii2-batsg.git",
+                "reference": "0e90433397e9a7c7b2b5e2e8d08f88786739fb41"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/umbalaconmeogia/yii2-batsg/zipball/0e90433397e9a7c7b2b5e2e8d08f88786739fb41",
+                "reference": "0e90433397e9a7c7b2b5e2e8d08f88786739fb41",
+                "shasum": ""
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "batsg\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tran Trung Thanh",
+                    "role": "Developer"
+                }
+            ],
+            "description": "My best practice and my libraries when using yii2 framework.",
+            "keywords": [
+                "utility",
+                "yii2"
+            ],
+            "time": "2018-07-03T15:38:09+00:00"
         },
         {
             "name": "yiisoft/yii2",
